@@ -23,7 +23,8 @@ const Navbar = () => {
         <div className={`header-top d-md-none  ${scroll ? 'open':''}`}>
             <div className="container">
                 <div className='header-top-area'>
-                    <Link to='/sing-up' className='lab-btn me-3'><span>CreateAccout</span></Link>
+                <Link to='/sing-up'>Sing Up</Link>
+                  <Link to='/sing-up' className='lab-btn me-3'><span>CreateAccout</span></Link>
                     
                     <Link to='/login'>Log In</Link>
                 </div>
@@ -60,10 +61,7 @@ const Navbar = () => {
                             <li>
                              <Link to='/about'>About</Link>
                              </li>
-                            <li>
-                                <Link to='/contact'>Contact</Link>
-                                
-                            </li>
+                           
                         </ul>
                        
                         
